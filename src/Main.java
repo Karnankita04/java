@@ -1,3 +1,5 @@
+import models.Mera;
+
 public class Main {
   public static void main(String[] args) {
     int a = 1;
@@ -11,4 +13,4 @@ public class Main {
     Mera meraAdd = new Mera(a,b);
     return meraAdd.meraAddMethod();
   }
-}
+}   

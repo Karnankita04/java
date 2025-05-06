@@ -1,13 +1,15 @@
+package models;
+
 public class Mera {
   int num1;
   int num2;
 
-  Mera(int a,int b){
+  public Mera(int a,int b){
     this.num1 = a;
     this.num2 = b;
   }
 
-  int meraAddMethod() {
+  public int meraAddMethod() {
     return this.num1 + this.num2;
   }
 }
