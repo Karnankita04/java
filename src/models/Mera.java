@@ -12,4 +12,9 @@ public class Mera {
   public int meraAddMethod() {
     return this.num1 + this.num2;
   }
+
+  public void greetings(String name){
+    System.out.printf("Hello %s\n",name);
+    
+  }
 }
